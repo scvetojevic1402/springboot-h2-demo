@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.jpa;
+package com.sreten.tps.twitter.jpa;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,13 +8,12 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sreten.h2springboot.twitter.crud.TweetRepository;
-import com.sreten.h2springboot.twitter.crud.PlaceRepository;
-import com.sreten.h2springboot.twitter.crud.UserRepository;
-
-import com.sreten.h2springboot.twitter.model.Place;
-import com.sreten.h2springboot.twitter.model.Tweet;
-import com.sreten.h2springboot.twitter.model.User;
+import com.sreten.tps.twitter.crud.PlaceRepository;
+import com.sreten.tps.twitter.crud.TweetRepository;
+import com.sreten.tps.twitter.crud.UserRepository;
+import com.sreten.tps.twitter.model.Place;
+import com.sreten.tps.twitter.model.Tweet;
+import com.sreten.tps.twitter.model.User;
 
 @Service
 public class TweetService {

@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.rest;
+package com.sreten.tps.twitter.rest;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sreten.h2springboot.twitter.model.User;
-import com.sreten.h2springboot.twitter.jpa.UserService;
+import com.sreten.tps.twitter.jpa.UserService;
+import com.sreten.tps.twitter.model.User;
 
 @RestController
 public class UserController {

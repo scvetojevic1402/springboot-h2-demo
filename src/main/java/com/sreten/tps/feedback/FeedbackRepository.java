@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.feedback;
+package com.sreten.tps.feedback;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.feedback;
+package com.sreten.tps.feedback;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

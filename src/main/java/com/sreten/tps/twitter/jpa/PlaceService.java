@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.jpa;
+package com.sreten.tps.twitter.jpa;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,8 +8,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sreten.h2springboot.twitter.crud.PlaceRepository;
-import com.sreten.h2springboot.twitter.model.Place;
+import com.sreten.tps.twitter.crud.PlaceRepository;
+import com.sreten.tps.twitter.model.Place;
 
 @Service
 public class PlaceService {

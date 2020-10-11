@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.feedback;
+package com.sreten.tps.feedback;
 
 import java.util.Arrays;
 import java.util.List;

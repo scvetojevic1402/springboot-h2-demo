@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.rest;
+package com.sreten.tps.twitter.rest;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sreten.h2springboot.twitter.model.Place;
-import com.sreten.h2springboot.twitter.jpa.PlaceService;
+import com.sreten.tps.twitter.jpa.PlaceService;
+import com.sreten.tps.twitter.model.Place;
 
 @RestController
 public class PlaceController {

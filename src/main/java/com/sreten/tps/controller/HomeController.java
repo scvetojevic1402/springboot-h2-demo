@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.controller;
+package com.sreten.tps.controller;
 
 import java.awt.List;
 import java.util.HashMap;
@@ -20,8 +20,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.sreten.h2springboot.feedback.Feedback;
-import com.sreten.h2springboot.feedback.FeedbackService;
+import com.sreten.tps.feedback.Feedback;
+import com.sreten.tps.feedback.FeedbackService;
+
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 //@Configuration

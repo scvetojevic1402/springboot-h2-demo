@@ -1,7 +1,12 @@
-package com.sreten.h2springboot.twitter.rest;
+package com.sreten.tps.twitter.rest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sreten.tps.twitter.jpa.DatabaseConnectionService;
+import com.sreten.tps.twitter.jpa.PlaceService;
+import com.sreten.tps.twitter.model.DatabaseConnection;
+import com.sreten.tps.twitter.model.Place;
+
 import static com.fasterxml.jackson.databind.jsonFormatVisitors.JsonValueFormat.URI;
 import java.util.Arrays;
 import java.util.List;
@@ -14,15 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.sreten.h2springboot.twitter.model.Place;
-import com.sreten.h2springboot.twitter.model.DatabaseConnection;
-import com.sreten.h2springboot.twitter.jpa.PlaceService;
-import com.sreten.h2springboot.twitter.jpa.DatabaseConnectionService;
-//import org.apache.http.*;
-//import java.net.HttpClient;
-//import java.net.http.HttpRequest;
-//import java.net.http.HttpResponse;
 
 import java.sql.*;
 import java.io.IOException;

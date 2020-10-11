@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.jpa;
+package com.sreten.tps.twitter.jpa;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,10 +8,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sreten.h2springboot.twitter.crud.UserRepository;
-import com.sreten.h2springboot.twitter.model.DatabaseConnection;
-import com.sreten.h2springboot.twitter.model.User;
-import com.sreten.h2springboot.twitter.crud.DatabaseConnectionRepository;
+import com.sreten.tps.twitter.crud.DatabaseConnectionRepository;
+import com.sreten.tps.twitter.crud.UserRepository;
+import com.sreten.tps.twitter.model.DatabaseConnection;
+import com.sreten.tps.twitter.model.User;
 
 @Service
 public class DatabaseConnectionService {

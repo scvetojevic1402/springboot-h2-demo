@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.model;
+package com.sreten.tps.twitter.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -52,7 +52,7 @@ com.sreten.h2springboot.administration = {
     },
     
     insertNewDatabaseConnection: function(){
-    	var idsHost = "http://localhost:8080";
+    	var idsHost = "http://localhost:8080/twitter-parsing-system/";
            
             let newServer = {
                             hostname: $('#hostname').val(),

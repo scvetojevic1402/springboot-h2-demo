@@ -1,4 +1,4 @@
-package com.sreten.h2springboot.twitter.rest;
+package com.sreten.tps.twitter.rest;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -16,14 +16,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sreten.h2springboot.twitter.model.Place;
-import com.sreten.h2springboot.twitter.model.Tweet;
-import com.sreten.h2springboot.twitter.model.User;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sreten.h2springboot.twitter.jpa.PlaceService;
-import com.sreten.h2springboot.twitter.jpa.TweetService;
-import com.sreten.h2springboot.twitter.jpa.UserService;
+import com.sreten.tps.twitter.jpa.PlaceService;
+import com.sreten.tps.twitter.jpa.TweetService;
+import com.sreten.tps.twitter.jpa.UserService;
+import com.sreten.tps.twitter.model.Place;
+import com.sreten.tps.twitter.model.Tweet;
+import com.sreten.tps.twitter.model.User;
+
 import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
