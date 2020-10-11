@@ -47,7 +47,7 @@ public class TweetController {
 		return tweetService.getTweet(id);
 	}
 	
-	@PostMapping(value = "/tweet", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(value = "/tweets", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void doSomething(@RequestBody Map<String, Object> payload) {
 		
 		ObjectMapper mapper = new ObjectMapper();
@@ -73,16 +73,6 @@ public class TweetController {
 		
 		tweetService.addTweet(tweet);
 		
-	}
-	@RequestMapping(method=RequestMethod.POST, value="/tweets")
-//	public void addTweet(@RequestBody Tweet tweet) {
-//	public void addTweet(@RequestBody Map<String, Object> payload) {
-        public void addTweet(@RequestBody Tweet tweet, @RequestParam User user) {
-                
-                
-//		placeService.addPlace(place);
-		userService.addUser(user);
-		tweetService.addTweet(tweet);
 	}
 	
 	@RequestMapping(method=RequestMethod.PUT, value="/tweets/{id}")
