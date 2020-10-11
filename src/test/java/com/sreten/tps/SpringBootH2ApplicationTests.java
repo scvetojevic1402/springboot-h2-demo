@@ -1,4 +1,4 @@
-package com.sreten.h2springboot;
+package com.sreten.tps;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

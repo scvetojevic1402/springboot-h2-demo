@@ -17,8 +17,8 @@ import org.json.simple.parser.ParseException;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
-@Entity(name="Tweets")
-@Table(name = "tweets")
+@Entity(name="Tweet")
+@Table(name = "tweet")
 public class Tweet {
 
 //	this needs to be done in h2 db:
