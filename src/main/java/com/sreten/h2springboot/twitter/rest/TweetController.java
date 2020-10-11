@@ -42,11 +42,6 @@ public class TweetController {
 		return tweetService.getAllTweets();
 	}
 	
-	@RequestMapping("/tweets/{foo}")
-	public Optional<Tweet> getTweet(@PathVariable("foo") String id) {
-		return tweetService.getTweet(id);
-	}
-	
 	@PostMapping(value = "/tweets", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void doSomething(@RequestBody Map<String, Object> payload) {
 		
