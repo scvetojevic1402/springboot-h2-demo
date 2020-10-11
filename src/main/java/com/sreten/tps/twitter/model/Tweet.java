@@ -77,7 +77,9 @@ public class Tweet {
     @JsonIgnore
     private Place place;
 	
+//  an empty constructor - all we need
 	public Tweet() {
+		
 	}
 
 	public Long getId() {

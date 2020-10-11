@@ -52,10 +52,10 @@ public class User {
 	@Column private String profile_use_background_image;
 	@Column private String profile_background_image_url_https;
 
-	
+//  an empty constructor - all we need	
 	public User() {
+		
 	}
-
 
 	public Long getId() {
 		return id;

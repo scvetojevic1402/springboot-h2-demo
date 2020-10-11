@@ -20,6 +20,7 @@ public class Place {
 	@Column private String bounding_box;
 	@Column	private String country_code;
 	
+//  an empty constructor - all we need
 	public Place() {
 	}
 
