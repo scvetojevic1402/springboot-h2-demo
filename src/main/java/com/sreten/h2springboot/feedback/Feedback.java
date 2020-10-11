@@ -7,38 +7,38 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name = "Feedback")
+@Entity(name="Feedback")
+@Table(name = "feedback")
 public class Feedback {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+	public Integer id;
 	
 	@Column
-	private String type;
+	public String type;
 	@Column
-	private String description; 
+	public String description;
 	@Column
-	private Double phoneLat;
+	public Double phoneLat;
 	@Column
-	private Double phoneLon;
+	public Double phoneLon;
 	@Column
-	private String insertTime;
+	public String insertTime;
 	@Column
-	private String imagePath;
+	public String imagePath;
 	@Column
-	private String phoneIP;
+	public String phoneIP;
 	@Column
-	private String phoneManufacturer;
+	public String phoneManufacturer;
 	@Column
 	private String phoneOS;
 	@Column
-	private String phoneOSVersion;
+	public String phoneOSVersion;
 	@Column
-	private String tags;
+	public String tags;
 	@Column
-	private String dataJson;
+	public String dataJson;
 	
 	
 	public Feedback() {
@@ -47,7 +47,6 @@ public class Feedback {
 	public Feedback(String type, String description, Double phoneLat, Double phoneLon, String insertTime,
 			String imagePath, String phoneIP, String phoneManufacturer, String phoneOS, String phoneOSVersion,
 			String tags, String dataJson) {
-		super();
 		this.type = type;
 		this.description = description;
 		this.phoneLat = phoneLat;
