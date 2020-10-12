@@ -47,6 +47,7 @@ public class TweetController {
 	public String doSomething(@RequestBody Map<String, Object> payload) {
 		
 		ObjectMapper mapper = new ObjectMapper();
+		
 //		this makes the mapper skip the attributes that JSON has and the Java class doesn't
         mapper.configure(DeserializationFeature.FAIL_ON_IGNORED_PROPERTIES, false);
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
